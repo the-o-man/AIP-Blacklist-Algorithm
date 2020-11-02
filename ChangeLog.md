@@ -1,6 +1,7 @@
 16/10/2020
 V2.0.3
 - Updated Whitelist for master branch
+- Updated README and AIP-How-To-Guide
 
 07/10/2020
 V2.0.2
@@ -24,7 +25,7 @@ V2.0.1
 22/07/2020
 V2.0.0
 - Added a whitlist module, namely before using the main data file, program will check for IPs that should not be blacklisted
-- Added an auto-run script. 
+- Added an auto-run script.
 - Changed the aging function so it keeps track og how much an IP needs to be reduced over time
 - Changed the threshold so that it is dynamic again
 - Fixed the cannot check whitelist bug
