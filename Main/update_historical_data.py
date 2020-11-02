@@ -64,7 +64,8 @@ def open_sort_new_file(b, list_of_new_files):
         with open(b + '/' + file, 'r') as csvfile:
             for line in csv.reader(csvfile):
                 if line[0] != 'SrcAddr':
-                    list_of_new_data_flows.append([line[0], line[1], line[2], line[3], line[4], line[5], line[6], line[7], line[8], line[9]])
+                    list_of_new_data_flows.append([line[0], line[1], line[2], line[3], line[4], line[5], line[6], line[7],
+                                                   line[8], line[9], line[10], line[11], line[12], line[13], line[14], line[15], line[16]])
                     list_of_IPs_in_new_data.append(line[0])
                 else:
                     continue
